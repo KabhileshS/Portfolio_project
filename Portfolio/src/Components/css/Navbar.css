@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    list-style-type: none;
+    color: blue;
+    background-color: palevioletred;
+    justify-content: space-around;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+    padding: 3px;
+}
