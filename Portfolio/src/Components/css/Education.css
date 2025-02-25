@@ -1,0 +1,67 @@
+
+.education-container {
+    background: #ffffff;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 90%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .education-container h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  .education-item {
+    margin: 15px 0;
+    padding: 15px;
+    background: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-item h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #2980b9;
+  }
+  
+  .education-item h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* 📑 Internship Descriptions */
+  .about p {
+    max-width: 700px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    text-align: left;
+    
+  }
+
+  p{
+    align-items: center;
+  }
+
+  h4 ,h2{
+    color: black;
+  }
+  

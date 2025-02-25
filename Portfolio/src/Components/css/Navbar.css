@@ -1,13 +1,24 @@
+header{
+    background-color: palevioletred;
+    color:black;
+}
 nav{
     display: flex;
     list-style-type: none;
-    color: blue;
+    color: darkblue;
     background-color: palevioletred;
     justify-content: space-around;
     padding: 10px;
 }
 .link{
     text-decoration: none;
-    color: blue;
-    padding: 3px;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    transition: transform 0.3s ease;
+}
+.link:hover{
+    background-color: pink;
+    transform: scale(1.5);
 }

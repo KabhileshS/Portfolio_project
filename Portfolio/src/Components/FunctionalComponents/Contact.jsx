@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   const styling = {
@@ -11,7 +11,8 @@ const Contact = () => {
       listStyleType: "none",
       padding: 0,
       display: "flex", // Use flexbox to align items horizontally
-      justifyContent: "center", // Center the items horizontally
+    //   justifyContent: "center", // Center the items horizontally
+      justifyContent: "space-around",
       gap: "20px", // Add space between the icons
     },
     icon: {
@@ -37,6 +38,7 @@ const Contact = () => {
           >
             <FaGithub />
           </a>
+          <br /><h3>My Github</h3>
         </li>
         <li>
           <a
@@ -47,12 +49,19 @@ const Contact = () => {
           >
             <FaLinkedin />
           </a>
+          <br /><h3>My LinkedIn</h3>
         </li>
         <li>
           <a href="mailto:kabhilesh14@gmail.com" style={styling.icon}>
             <FaEnvelope />
-            FaLi
           </a>
+          <br /><h3>My Gmail</h3>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_kabhilesh_s/" style={styling.icon}>
+            <FaInstagram />
+          </a>
+          <br /><h3>My Instagram</h3>
         </li>
       </ol>
       <h3>Contact Number : +91 7395992803</h3>
